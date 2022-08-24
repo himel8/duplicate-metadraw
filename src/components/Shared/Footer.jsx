@@ -1,9 +1,9 @@
 import React from "react";
+import Insta from '../../assets/Footer/insta.png';
 import FooterImg from "../../assets/Footer/Metadraw_logo.png";
 import FooterLeftImg from "../../assets/Footer/powerby.png";
 import FooterRightImg from "../../assets/Footer/ticket.png";
 import DiscordSvg from "../../assets/SVG/DiscordSvg.jsx";
-import InstaSvg from "../../assets/SVG/InstaSvg";
 
 import TwitterSvg from "../../assets/SVG/TwitterSvg";
 
@@ -18,12 +18,14 @@ const Footer = () => {
           <a href="#!">
             <TwitterSvg className="transform transition-all duration-700 ease-in-out hover:scale-125" />
           </a>
-          <a href="#!">
-            <InstaSvg className="transform transition-all duration-700 ease-in-out hover:scale-125" />
-          </a>
+          
           <a href="#!">
             <DiscordSvg className="transform transition-all duration-700 ease-in-out hover:scale-125" />
           </a>
+          <a href="#!">
+            <img src=
+            {Insta} alt="" className="transform transition-all duration-700 ease-in-out hover:scale-125"/>
+            </a>
         </div>
         <hr className="bg-red-700" />
         <p className="font-primary text-customWhite opacity-70 text-lg tracking-wider py-8">

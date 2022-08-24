@@ -32,7 +32,7 @@ const Form = () => {
               Raffle End Date
             </label>
             <input
-              className="shadow text-[#ffffffb3] appearance-none rounded-2xl  py-4 px-10 bg-[#1a1a1a] border border-[#e45d01] leading-tight focus:outline-none focus:shadow-outline text-[1rem] w-full"
+              className="shadow text-[#ffffffb3] appearance-none rounded-2xl  py-4 px-10 bg-[#1a1a1a] border custom-border leading-tight focus:outline-none focus:shadow-outline text-[1rem] w-full"
               id="date"
               type="date"
               placeholder=""
@@ -47,7 +47,7 @@ const Form = () => {
               Ticket Supply
             </label>
             <input
-              className="shadow text-[#ffffffb3] appearance-none rounded-2xl  py-4 px-10 bg-[#1a1a1a] border border-[#e45d01] leading-tight focus:outline-none focus:shadow-outline text-[1rem] w-full"
+              className="shadow text-[#ffffffb3] appearance-none rounded-2xl  py-4 px-10 bg-[#1a1a1a] border custom-border leading-tight focus:outline-none focus:shadow-outline text-[1rem] w-full"
               id="ticket"
               type="text"
               placeholder=""

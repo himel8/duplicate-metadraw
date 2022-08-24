@@ -22,7 +22,7 @@ const Prize = () => {
         <Title normalText="Choose NFT for" colorText="Raffle Prize" />
         <p className="text-white text-xl font-primary">
           <Link to="/contact">
-            <span className="text-[#EF9D57]">Contact us</span>
+            <span className="text-gradiant">Contact us</span>
           </Link>{" "}
           to get your NFT verified
         </p>
@@ -32,7 +32,7 @@ const Prize = () => {
               <img
                 src={data.img}
                 alt=""
-                className="rounded-lg border border-[#EF9C55]"
+                className="rounded-lg border border-[#f24be0]"
               />
               <h3 className="font-primary text-3xl text-white mt-5 mb-2">
                 {data.name}

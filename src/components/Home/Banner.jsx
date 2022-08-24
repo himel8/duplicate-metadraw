@@ -9,7 +9,7 @@ const Banner = () => {
         <img src={BannerImg} alt="" className="w-full" />
 
         <p className="text-white text-2xl font-primary py-6">
-          <span className="text-[#EF9D57]">Dictumst scelerisque</span> mi
+          <span className="text-gradiant">Dictumst scelerisque</span> mi
           interdum commodo viverra ac at tellus facilisis. Tellus ut in semper
           pulvinar malesuada adipiscing sed.
         </p>

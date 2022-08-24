@@ -3,10 +3,10 @@ import { FaTimes } from "react-icons/fa";
 
 const RaffleCard = ({ details, setShowRaffle }) => {
   return (
-    <div className="bg-[#010101]  p-10 w-[90%] md:w-[60%] h-full relative border border-[#e87521] rounded-lg mx-auto z-[999] overflow-y-auto scrollbar-hide">
+    <div className="bg-[#010101]  p-10 w-[90%] md:w-[60%] h-full relative border border-[#f24be0] rounded-lg mx-auto z-[999] overflow-y-auto scrollbar-hide">
       <div
         onClick={() => setShowRaffle(false)}
-        className="w-12 h-12 p-4 rounded-full absolute top-2 right-2 text-white hover:bg-white hover:text-[#e87521] cursor-pointer z-[80]"
+        className="w-12 h-12 p-4 rounded-full absolute top-2 right-2 text-white hover:bg-white hover:text-[#7f67ff] cursor-pointer z-[80]"
       >
         <FaTimes />
       </div>
@@ -14,7 +14,7 @@ const RaffleCard = ({ details, setShowRaffle }) => {
         <div className="mx-auto flex justify-center items-start gap-10 flex-wrap pb-4">
           <img src={details.img} alt="" className="custom-raffle-card" />
           <div className="text-left  min-w-[20rem] flex-1">
-            <div className="custom-form-bg py-9 pl-10 px-20 border border-[#EF9C55] rounded-xl flex flex-col gap-8 ">
+            <div className="custom-form-bg py-9 pl-10 px-20 border border-[#f24be0] rounded-xl flex flex-col gap-8 ">
               <div
                 className="text-white font-primary
             "

@@ -52,7 +52,7 @@ const Feature = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border border-[#EF9C55] h-[26.4rem] rounded-lg flex flex-col justify-between">
+            <div className="border border-[#3DCDFF] h-[26.4rem] rounded-lg flex flex-col justify-between">
               <div className=" p-5 pb-0">
                 <div className="flex justify-end">
                   <AiFillHeart className="text-white text-[1.5rem] sm:text-[2.3rem]" />

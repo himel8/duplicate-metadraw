@@ -24,7 +24,7 @@ const HoverText = ({ details }) => {
           </div>
         </div>
 
-        <div className="bg-[#e87521] pt-[.9rem] pb-4 rounded-b-xl cursor-pointer">
+        <div className="custom-gradiant pt-[.9rem] pb-4 rounded-b-xl cursor-pointer">
           <p className="text-white font-primary text-2xl mb-2">View Raffle</p>
           <p className="text-white font-primary text-[1rem]">
             Ends in {details.remain}

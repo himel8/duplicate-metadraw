@@ -32,7 +32,7 @@ const NewRaffle = () => {
           </div>
         </div>
 
-        <div className="border border-[#e45d01] px-4 sm:px-11 py-9 rounded-xl custom-form-bg flex-1 mx-5 sm:mx-10 lg:mx-0 lg:w-[60%]">
+        <div className="border custom-border px-4 sm:px-11 py-9 rounded-xl custom-form-bg flex-1 mx-5 sm:mx-10 lg:mx-0 lg:w-[60%]">
           {/* form */}
           <Form />
           {/* Terms & Conditions */}

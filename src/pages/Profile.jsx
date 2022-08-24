@@ -18,7 +18,7 @@ const Profile = () => {
       <div className="py-20 pb-40">
         <Title normalText="User" colorText="Profile" />
 
-        <div className="border border-[#EF9C55] rounded-xl w-[85%] lg:w-[75%] xl:w-[65%] mx-auto custom-user-bg ">
+        <div className="border custom-border rounded-xl w-[85%] lg:w-[75%] xl:w-[65%] mx-auto custom-user-bg ">
           <div className="flex justify-center items-center gap-4 mt-6 flex-wrap-reverse">
             <h6 className="font-primary text-white text-[12px] sm:text-xl">
               GLpUniJsWQAp5f5fHuCwxTaZbddmgG274YN6ViaV6miR

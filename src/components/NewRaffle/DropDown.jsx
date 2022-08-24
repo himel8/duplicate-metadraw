@@ -9,13 +9,13 @@ const DropDown = ({ data }) => {
     <div className="min-w-[12rem] relative">
       <div
         onClick={() => setOpen(!open)}
-        className="px-5 py-4 mb-2 box-border bg-[#1a1a1a] rounded-2xl flex justify-between items-center w-full border border-[#e45d01] transform transition-all ease-out duration-500 "
+        className="px-5 py-4 mb-2 box-border bg-[#1a1a1a] rounded-2xl flex justify-between items-center w-full border custom-border transform transition-all ease-out duration-500 "
       >
         <p className="text-white font-primary text-[1.4rem]">{selected}</p>
         {open ? (
-          <IoIosArrowUp className="text-xl text-[#e45d01] font-bold" />
+          <IoIosArrowUp className="text-xl text-[#7f67ff] font-bold" />
         ) : (
-          <IoIosArrowDown className="text-xl text-[#e45d01] font-bold" />
+          <IoIosArrowDown className="text-xl text-[#7f67ff] font-bold" />
         )}
       </div>
 

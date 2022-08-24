@@ -32,7 +32,7 @@ const MyRaffle = () => {
             <DropDown data={dataList?.[0]} />
           </div>
         </div>
-        <div className="w-[93%] md:w-[80%] mx-auto border border-[#e45d01] rounded-xl p-12 mt-6 custom-form-bg">
+        <div className="w-[93%] md:w-[80%] mx-auto border custom-border rounded-xl p-12 mt-6 custom-form-bg">
           {userData.map((data, index) => (
             <div
               key={index}
